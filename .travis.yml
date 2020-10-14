@@ -9,10 +9,10 @@ dist: trusty
 php:
     - '7.1'
  
-  services:
+services:
     - docker
   
-  jobs:
+jobs:
     include:
         stage:  "Tests"                
         name:   "Unit Test PHP"  
